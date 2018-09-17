@@ -69,7 +69,7 @@ def addZero(str, length):
 		targetstr = (length - strlength) * '0' + str
 		return targetstr
 	elif strlength > length:	
-		print 'The string you entered is longer than your target length'
+		print("The string you entered is longer than your target length")
 		return str
 	else:
 		return str
@@ -101,7 +101,7 @@ def str2float(pstr):
 	try: 
 		float(str)
 	except:
-		print str + ' is not numeric, please check'
+		print(str + " is not numeric, please check")
 		sys.exit()
 	else:
 		output = float(str)
